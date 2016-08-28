@@ -1,0 +1,27 @@
+/* site-wide style*/
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #111111;
+  padding-left: 10px;
+}
+
+/* link theming */
+
+a:link {
+    color: #008080;
+    text-decoration: none;
+}
+
+a:visited {
+  color: #800000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+iframe.spotify {
+  margin-top: 10px;
+}
