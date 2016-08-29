@@ -12,7 +12,7 @@ body {
 a {
     color: #09A6A4;
     transition: .3s;
-    text-decoration: inherit;
+    text-decoration: none;
 }
 
 a:hover {
