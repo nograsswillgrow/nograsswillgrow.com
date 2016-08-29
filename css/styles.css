@@ -1,7 +1,6 @@
 /* site-wide style*/
 
 body {
-  /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
   font-family: 'Oxygen', sans-serif;
   background-color: #222222;
   color: #FFFFFF;
@@ -10,19 +9,17 @@ body {
 
 /* link theming */
 
-a:link {
+a {
     color: #09A6A4;
+    transition: .3s;
     text-decoration: none;
 }
 
-a:visited {
+a:hover {
   color: #F65658;
-  text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
+/* Spotify adjustment */
 
 iframe.spotify {
     border-style:none;
