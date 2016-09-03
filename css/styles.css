@@ -4,21 +4,32 @@ body {
     font-family: 'Oxygen', sans-serif;
     background-color: #222222;
     color: #FFFFFF;
+    margin: 15px;
     padding-left: 10px;
     padding-right: 10px;
-    margin: 15px 15px;
 }
 
 /* link theming */
 
 a {
     color: #09A6A4;
-    transition: .3s;
     text-decoration: none;
+    transition: .3s;
 }
 
 a:hover {
     color: #F65658;
+}
+
+#shruggie {
+    transition: visibility .3s, opacity .3s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+a:hover.email + #shruggie {
+    visibility: visible;
+    opacity: 1;
 }
 
 /* remove Spotify border */
