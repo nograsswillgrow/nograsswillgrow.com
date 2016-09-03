@@ -21,15 +21,17 @@ a:hover {
     color: #F65658;
 }
 
-#shruggie {
-    transition: visibility .3s, opacity .3s;
-    visibility: hidden;
-    opacity: 0;
-}
+/* animated shruggie */
 
 a:hover.email + #shruggie {
-    visibility: visible;
     opacity: 1;
+    visibility: visible;
+}
+
+#shruggie {
+    opacity: 0;
+    transition: visibility .3s, opacity .3s;
+    visibility: hidden;
 }
 
 /* remove Spotify border */
