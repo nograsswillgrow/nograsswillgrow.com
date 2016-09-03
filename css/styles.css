@@ -23,7 +23,7 @@ a:hover {
 
 /* animated shruggie */
 
-a:hover.email + #shruggie {
+a:hover + #shruggie {
     opacity: 1;
     visibility: visible;
 }
@@ -32,6 +32,8 @@ a:hover.email + #shruggie {
     opacity: 0;
     transition: visibility .3s, opacity .3s;
     visibility: hidden;
+    white-space: nowrap;
+
 }
 
 /* remove Spotify border */
