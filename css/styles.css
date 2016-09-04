@@ -17,8 +17,6 @@ body {
   padding-right: 10px;
 }
 
-iframe.spotify {border-style:none;}
-
 #shruggie {
   opacity: 0;
   transition: visibility .3s, opacity .3s;
