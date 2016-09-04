@@ -1,43 +1,27 @@
-/* site-wide style*/
+a {
+  color: #09A6A4;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {color: #F65658;}
+
+a:hover + #shruggie {opacity: 1; visibility: visible;}
 
 body {
-    font-family: 'Oxygen', sans-serif;
-    background-color: #222222;
-    color: #FFFFFF;
-    margin: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
+  font-family: 'Oxygen', sans-serif;
+  background-color: #222222;
+  color: #FFFFFF;
+  margin: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-/* link theming */
-
-a {
-    color: #09A6A4;
-    text-decoration: none;
-    transition: .3s;
-}
-
-a:hover {
-    color: #F65658;
-}
-
-/* animated shruggie */
-
-a:hover + #shruggie {
-    opacity: 1;
-    visibility: visible;
-}
+iframe.spotify {border-style:none;}
 
 #shruggie {
-    opacity: 0;
-    transition: visibility .3s, opacity .3s;
-    visibility: hidden;
-    white-space: nowrap;
-
-}
-
-/* remove Spotify border */
-
-iframe.spotify {
-    border-style:none;
+  opacity: 0;
+  transition: visibility .3s, opacity .3s;
+  visibility: hidden;
+  white-space: nowrap;
 }
