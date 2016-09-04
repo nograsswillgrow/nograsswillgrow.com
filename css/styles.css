@@ -8,16 +8,25 @@ a:hover {color: #F65658;}
 
 a:hover + #shruggie {opacity: 1; visibility: visible;}
 
+a:hover + #wip {opacity: 1; visibility: visible;}
+
 body {
   font-family: 'Oxygen', sans-serif;
-  background-color: #222222;
-  color: #FFFFFF;
+  background-color: #222;
+  color: #FFF;
   margin: 15px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 #shruggie {
+  opacity: 0;
+  transition: visibility .3s, opacity .3s;
+  visibility: hidden;
+  white-space: nowrap;
+}
+
+#wip {
   opacity: 0;
   transition: visibility .3s, opacity .3s;
   visibility: hidden;
