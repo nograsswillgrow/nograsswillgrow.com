@@ -25,3 +25,14 @@ body {
   visibility: hidden;
   white-space: nowrap;
 }
+
+h1 {
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+}
+
+p {
+  margin: 0px;
+  padding-bottom: 10px;
+  padding-top: 6px;
+}
