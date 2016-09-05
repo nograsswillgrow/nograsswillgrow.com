@@ -31,14 +31,14 @@ h1 {
   padding-bottom: 4px;
 }
 
-#spotify {
-  border: none;
-  height: 80px;
-  width: 355px;
-}
-
 p {
   margin: 0px;
   padding-bottom: 10px;
   padding-top: 6px;
+}
+
+#spotify {
+  border: none;
+  height: 80px;
+  width: 355px;
 }
