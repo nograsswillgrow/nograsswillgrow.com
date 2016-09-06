@@ -10,7 +10,10 @@ a {
 
 a:hover {color: #F65658;}
 
-a:hover + .fade {opacity: 1; visibility: visible;}
+a:hover + .fade {
+  opacity: 1;
+  visibility: visible;
+}
 
 a.light {color: #055D5C;}
 
@@ -41,6 +44,15 @@ body.light {
 h1 {
   margin-bottom: 8px;
   padding-bottom: 4px;
+}
+
+#lights:hover {
+  color: #FFFFFF;
+  text-shadow: 0 0 5px #FF9;
+}
+#lights.light:hover {
+  color: #222222;
+  text-shadow: 0 0 5px #FF9;
 }
 
 p {
