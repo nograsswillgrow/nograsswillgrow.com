@@ -3,6 +3,7 @@
 a {
   color: #09A6A4;
   cursor: pointer;
+  font-weight: bold;
   text-decoration: none;
   transition: .5s;
 }
@@ -32,7 +33,7 @@ body.light {
 
 .fade {
   opacity: 0;
-  transition: visibility .3s, opacity .3s;
+  transition: visibility .5s, opacity .5s;
   visibility: hidden;
   white-space: nowrap;
 }
