@@ -48,11 +48,11 @@ a.dark:hover {
   color: #F65658;
 }
 #lightswitch:hover {
-  color: #FFF;
+  color: #222;
   text-shadow: 0 0 5px #FF9;
 }
 #lightswitch.light:hover {
-  color: #222;
+  color: #FFF;
   text-shadow: 0 0 5px #FF9;
 }
 
