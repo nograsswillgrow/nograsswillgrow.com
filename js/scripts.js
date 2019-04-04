@@ -7,13 +7,13 @@ function changeMode() {
     for (var i = 0; i < linkClass.length; i++) {
       linkClass[i].className = "dark";
     }
-    document.getElementById("lightswitch").innerHTML = "dark mode";
+    document.getElementById("lightswitch").innerHTML = "Turn on the lights?";
 
   } else {
     document.body.className = "";
     for (var i = 0; i < linkClass.length; i++) {
       linkClass[i].className = "";
     }
-    document.getElementById("lightswitch").innerHTML = "light mode";
+    document.getElementById("lightswitch").innerHTML = "Turn off the lights?";
   }
 }
