@@ -10,8 +10,8 @@ body {
   margin: 15px;
   padding: 0 10px;
   transition: .5s;
-  color: #FFF;
-  background-color: #222;
+  color: #222;
+  background-color: #FFF;
 }
 h1 {
   margin-bottom: 8px;
@@ -27,25 +27,25 @@ a {
   cursor: pointer;
   transition: .5s;
   text-decoration: none;
-  color: #09A6A4;
+  color: #055D5C;
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0, .0);
 }
 a:hover {
-  color: #F65658;
+  color: #F20D10;
 }
 
 /* Light mode */
 
-body.light {
-  color: #222;
-  background-color: #FFF;
+body.dark {
+  color: #FFF;
+  background-color: #222;
 }
-a.light {
-  color: #055D5C;
+a.dark {
+  color: #09A6A4;
 }
-a.light:hover {
-  color: #F20D10;
+a.dark:hover {
+  color: #F65658;
 }
 #lightswitch:hover {
   color: #FFF;
