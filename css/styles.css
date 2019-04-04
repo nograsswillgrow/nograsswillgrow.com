@@ -51,7 +51,7 @@ a.dark:hover {
   color: #222;
   text-shadow: 0 0 5px #FF9;
 }
-#lightswitch.light:hover {
+#lightswitch.dark:hover {
   color: #FFF;
   text-shadow: 0 0 5px #FF9;
 }
